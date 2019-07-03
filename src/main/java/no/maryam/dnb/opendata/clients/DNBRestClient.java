@@ -12,7 +12,7 @@ import org.springframework.web.client.RestTemplate;
 
 import java.util.Arrays;
 
-@Service
+//@Service
 public class DNBRestClient {
 
     @Value("${no.dnb.api.client.id}")

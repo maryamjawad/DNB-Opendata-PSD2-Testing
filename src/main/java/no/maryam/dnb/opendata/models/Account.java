@@ -16,4 +16,8 @@ public class Account {
     public void setBalances(List<Balance> balances) {
         this.balances = balances;
     }
+
+    public void setBalance( Balance balance) {
+        this.balances.add(balance);
+    }
 }
